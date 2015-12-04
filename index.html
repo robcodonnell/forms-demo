@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Forms</title>
+  <meta name="handheldfriendly" content="true">
+  <meta name="mobileoptimized" content="240">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <form action="https://formspree.io/robe.od@gmail.com" method="post">
+
+    <div>
+      <label for="name">Name</label>
+      <input id="name" required name="name">
+    </div>
+
+    <div>
+      <label for="email">Email</label>
+      <input id="email" type="email" required placeholder="you@yours.com" name="email">
+    </div>
+
+    <div>
+      <label for="subject">Subject</label>
+      <select id="subject" name="_subject">
+        <option></option>
+        <option>Looking for a freelancer</option>
+        <option>Looking for real one</option>
+        <option>We good</option>
+      </select>
+    </div>
+
+    <fieldset>
+      <legend>How it do</legend>
+
+      <input id="good" type="radio" name="feels">
+      <label for="good">The good good</label>
+
+      <input id="ight" type="radio" name="feels">
+      <label for="ight">Aight</label>
+
+      <input id="naight" type="radio" name="feels">
+      <label for="naight">Naight</label>
+
+      <input id="bahd" type="radio" name="feels">
+      <label for="bahd">Real bahd</label>
+
+    </fieldset>
+
+    <div>
+      <label for="message">Message</label>
+      <textarea id="message" name="message"></textarea>
+    </div>
+
+    <div>
+      <button type="submit">Sign up</button>
+    </div>
+
+  </form>
+
+</body>
+
+
+</html>
